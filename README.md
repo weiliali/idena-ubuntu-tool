@@ -15,3 +15,4 @@ you just state you address and nodekey in xlxs , all thing will do auto
 address	nodekey	ip	state	balance	stake
 ![image](https://github.com/weiliali/idena-ubuntu-tool/assets/46802173/f9a60abc-8263-4515-9876-1975d1be1e19)
 
+![image](https://github.com/weiliali/idena-ubuntu-tool/assets/46802173/c2670f43-e59e-49e4-b8a3-0405b21f3f8d)
