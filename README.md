@@ -10,3 +10,9 @@ you just state you address and nodekey in xlxs , all thing will do auto
 快捷命令：
 按下【win+R】打开运行输入：【shell:Common Startup】
 然后将想要开机启动的应用放置进去就好了。
+address	nodekey	ip	state	balance	stake
+					
+					
+address	nodekey	ip	state	balance	stake
+![image](https://github.com/weiliali/idena-ubuntu-tool/assets/46802173/f9a60abc-8263-4515-9876-1975d1be1e19)
+
