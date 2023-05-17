@@ -1,7 +1,7 @@
 import openpyxl
 import paramiko
 import time
-idena_excel='nodekey.xlsx'
+idena_excel='idena-all.xlsx'
 def main(i):
     # 读取 Excel 文件
     wb = openpyxl.load_workbook(idena_excel)
