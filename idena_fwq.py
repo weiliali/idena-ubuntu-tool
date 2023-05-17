@@ -14,7 +14,7 @@ def test(example.txt):
     with open(filename, 'r') as f:
     content = f.read()  # 读取文件内容
     var = content  # 将文件内容赋值给变量
-secretId=testsecretId)
+secretId=test(secretId)
 secretKey=test(secretKey)
 #定义函数
 def img_name():
