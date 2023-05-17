@@ -1,4 +1,4 @@
-state_excel = 'idena.xlsx'
+state_excel = 'idena-all.xlsx'
 def idena_stats(i):
     def idena_balance(address):
         import requests
@@ -26,9 +26,9 @@ def idena_stats(i):
     # 获取单元格数据
     sheet = workbook['Sheet1']
     cell = sheet['A' + '' + i]
-    sheet.cell(row=int(i), column=2, value=idena_balance(cell.value)['balance'])
-    sheet.cell(row=int(i), column=3, value=idena_balance(cell.value)['stake'])
-    sheet.cell(row=int(i), column=4, value=idena_identity(cell.value)['state'])
+    sheet.cell(row=int(i), column=4, value=idena_balance(cell.value)['balance'])
+    sheet.cell(row=int(i), column=5, value=idena_balance(cell.value)['stake'])
+    sheet.cell(row=int(i), column=6, value=idena_identity(cell.value)['state'])
     workbook.save(state_excel)
 
 
