@@ -9,13 +9,14 @@ from tencentcloud.common.profile.client_profile import ClientProfile
 from tencentcloud.common.profile.http_profile import HttpProfile
 from tencentcloud.common.exception.tencent_cloud_sdk_exception import TencentCloudSDKException
 from tencentcloud.cvm.v20170312 import cvm_client, models
-def test(example.txt):
-    filename = 'example.txt'  # 文件名
+def test(filename):
     with open(filename, 'r') as f:
-    content = f.read()  # 读取文件内容
-    var = content  # 将文件内容赋值给变量
-secretId=test(secretId)
-secretKey=test(secretKey)
+        content = f.read()  # 读取文件内容
+    return content  # 返回文件内容
+
+secretId = test('secretId')  # 读取 example.txt 中的内容并赋值给 secretId
+secretKey = test('secretKey')  # 读取 example.txt 中的内容并赋值给 secretKey
+
 #定义函数
 def img_name():
     try:
@@ -156,4 +157,3 @@ while times > 0:
 
     except TencentCloudSDKException as err:
         print(err)
-
