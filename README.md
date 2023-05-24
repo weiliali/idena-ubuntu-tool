@@ -51,6 +51,7 @@ Set-Service -Name ssh-agent -StartupType 'Automatic'
 1. 下载所有并解压缩到ubuntu中
 2. 安装依赖源
 ```
+apt-get update
 apt install python3-pip -y
 pip install --upgrade tencentcloud-sdk-python
 pip install openpyxl
