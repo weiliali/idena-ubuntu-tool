@@ -48,8 +48,17 @@ Set-Service -Name ssh-agent -StartupType 'Automatic'
 ```
 
 ## linux端准备
+1. 下载所有并解压缩到ubuntu中
+2. 安装依赖源
+```
+apt install python3-pip -y
+pip install --upgrade tencentcloud-sdk-python
+pip install openpyxl
+pip install paramiko
+pip install time
+```
 ## 文档格式
-idena-all.xlsx
+### idena-all.xlsx
 address	nodekey	ip	state	balance	stake
 ![image](https://github.com/weiliali/idena-ubuntu-tool/assets/46802173/f9a60abc-8263-4515-9876-1975d1be1e19)
 
