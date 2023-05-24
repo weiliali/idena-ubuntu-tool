@@ -10,12 +10,12 @@ you just state you address and nodekey in xlxs , all thing will do auto
 shell、cmd、python
 # 文件目录
 ![image](https://github.com/weiliali/idena-ubuntu-tool/assets/46802173/c2670f43-e59e-49e4-b8a3-0405b21f3f8d)
-## win端
+## win端准备
 ### idena-start.bat
 快捷命令：
 按下【win+R】打开运行输入：【shell:Common Startup】
 然后将想要开机启动的应用放置进去就好了。
-
+### [安装openssh](https://urabas.com/2022/05/05/zai-windows-server-2012-r2-pei-zhi-openssh/)
 					
 address	nodekey	ip	state	balance	stake
 ![image](https://github.com/weiliali/idena-ubuntu-tool/assets/46802173/f9a60abc-8263-4515-9876-1975d1be1e19)
