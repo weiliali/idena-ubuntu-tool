@@ -1,6 +1,6 @@
 import openpyxl
 import paramiko
-import time
+import pro_base
 idena_excel='idena-all.xlsx'
 def main(i):
     # 读取 Excel 文件
