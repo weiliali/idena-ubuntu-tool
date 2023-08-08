@@ -1,7 +1,7 @@
 echo "
 1.新建服务器
 2.导出服务器，并下载文档
-3.查询镜像
+3.镜像设置
 4.上传idena-all，统计数据,并下载
 5.上传idena-all，并导入服务器nodekey
  type in your choose:"
@@ -10,7 +10,7 @@ echo "
 	    python3 idena_fwq.py
      elif [[ "$num" -eq 2 ]]; then
 	    python3 idena_ip.py
-	    sz fwq.xlsx
+	    sz FWQ.prma
      elif [[ "$num" -eq 3 ]]; then
 	    python3 idena_img.py
      elif [[ "$num" -eq 4 ]]; then   
